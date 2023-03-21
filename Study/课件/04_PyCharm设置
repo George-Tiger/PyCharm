@@ -1,6 +1,6 @@
 1.解释器配置
     文件->设置->项目->Python解释器
-    添加新解释器，位置选择Phtone具体安装目录
+    添加新解释器，位置选择Python具体安装目录
 
 2.第三方模块安装
     打开cmd
@@ -9,3 +9,11 @@
 3.配置第三方镜像源
     pip install --upgrade pip
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+4.安装第三方模块
+    pip install --upgrade --force-reinstall --no-cache-dir jupyter
+    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple selenium
+
+5.jupyter notebook启动
+    cmd命令输入jupyter notebook
+   
